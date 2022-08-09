@@ -1,7 +1,7 @@
-.flex-container {
+.container {
    
     position: relative;
-    background: rgb(14, 11, 12);
+    background: rgb(0, 0, 0);
     height: 160px;
     width: 1324px;
     display: flex;
@@ -33,8 +33,8 @@ top: 2%;
 
 .magGlass {
   position: absolute;
-  left: 1320px;
-  top: 9.5%;
+  left: 1322px;
+  top: 8.5%;
   
   
   
@@ -66,94 +66,45 @@ body:before {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.backTitle{
+  #pickles {
+    border: 1px solid black;
     display: flex;
-    flex-direction: row;
-    justify-items: center;
-    margin: 0;
-    width: 1333px;
-    height: 197px;
-    background-color: #01010D;
-    
-  }*/
-
- 
-  /*.title {
-    justify-content: center;
-    width: 10px;
-    height: 10px;
-    background-color: black;
-    display: inline-block;
-  }
-
-
-  .gif {
-    border-top: 0cm;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    top: 20px;
-    left: 20px;
-    justify-content: center;
-  }
-
-.portal{
-  width: 100px;
-  margin: 100px;
-}
-
-header{
-  background-color: black;
-  width: 1333px;
-  height: 197px;
-}
-.ricktitle{
-  justify-content: center;
-  
-}
-
-.background {
-    margin:0;
-    min-height: 70vh;
-    background-image: url("img/backgroRM1.jpg");
     flex-direction: column;
-    background-size: cover;
-    background-position: absolute;
+    align-items: center;
+    position: relative;
+    width:300px;
+    height:160px;
+    background-image: url("img/pickle.jpg");
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    justify-content:center;
-    text-align: center;
+    border-radius: 20%;
+    margin-top: 1%;
+
+
+  }
+
+  .name {
+    font-size: 20px;
+    color:  rgba(116, 255, 146, 1);
+    text-align: justify;
+    margin-left: 0%;
+    margin-top:0%;
     
-    }
+    
+    
 
+  }
 
-    /*body:before {
-        content:"";
-       
-        position:absolute;
-        top:0;
-        left:0;
-        width: 107%;
-        min-height: 104vh;
-        background: linear-gradient(60deg, #e9f0f1, #7a2d8b);
-        opacity: 0.6;
-        z-index:-3;
-        }*/
+  .species {
+    font-size: 20px;
+    color:  rgba(116, 255, 146, 1);
+    text-align: justify;
+
+  }
+
+  .status {
+    font-size: 20px;
+    color:  rgba(116, 255, 146, 1);
+    text-align: justify;
+
+  }
